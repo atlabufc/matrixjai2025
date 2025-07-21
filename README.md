@@ -6,6 +6,7 @@ Este repositório contém exemplos práticos de automação usando o protocolo M
 
 - 📡 **API REST com `requests`** – ideal para automações simples via HTTP.
 - 🤖 **Biblioteca `matrix-nio`** – orientada a eventos, ideal para bots reativos.
+- 🤖 **Biblioteca `jq`** – utilizado para parsear JSON no Bash.
 
 ---
 
@@ -14,6 +15,8 @@ Este repositório contém exemplos práticos de automação usando o protocolo M
 ```bash
 pip install requests
 pip install matrix-nio
+pip install matrix-nio[e2e]
+udo apt install jq
 ```
 
 ---
